@@ -6,13 +6,13 @@ public class Link {
 	public double data2;
 	public Link nextLink;
 	
-	//link »ı¼ºÀÚ
+	//link ìƒì„±ì
 	public Link(int d1, double d2) {
 		data1 = d1; 
 		data2 = d2;
 	}
 	
-	//link µ¥ÀÌÅÍ Ãâ·Â
+	//link ë©”ì†Œë“œ
 	public void printLink() {
 		System.out.println("{"+data1+", "+data2+"} ");
 	}
